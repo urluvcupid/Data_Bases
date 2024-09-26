@@ -156,7 +156,7 @@ WHERE airline_name = 'SIT';
 INSERT INTO airline(airline_id, airline_code, airline_name, airline_country, created_at, updated_at)
 values('1242', 'AE', 'AirEasy', 'France', current_timestamp, current_timestamp),
 ('1122', 'FH', 'FlyHigh', 'Brazil', current_timestamp, current_timestamp),
-('1247', 'FF', 'FlyFly', 'Poland', current_timestamp, current_timestamp);
+('1277', 'FF', 'FlyFly', 'Poland', current_timestamp, current_timestamp);
 
 DELETE FROM flights WHERE EXTRACT(YEAR FROM sch_arrival_time) = 2024;
 
