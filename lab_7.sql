@@ -41,7 +41,8 @@ where tablename = 'passengers';
 drop index if exists idx_passport_number;
 drop index if exists passengers_pkey;       --if i want to drop index, i should first of all drop primary key itself
 --alter table passengers drop constraint passengers_pkey
---and only after that i can drop index(line 42
+--and only after that i can drop index(line 42);
 drop index if exists unique_date_of_birth;
+--for this one the same
 drop index if exists idx_passenger_info;
 
